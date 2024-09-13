@@ -21,7 +21,9 @@ const Login = () => {
     return (
         <div className="h-full flex items-center justify-center">
             <div className="border border-blue-500 p-8 rounded-lg w-full max-w-md">
-                <h2 className="text-2xl font-bold mb-4 text-center">Login to Chat App</h2>
+                <h2 className="text-2xl font-bold mb-4 text-center">
+                    Login to Chat!
+                </h2>
 
                 <form onSubmit={(e) => { handleLogin(e, credentials) }}>
                     <div className="mb-4">
@@ -54,11 +56,11 @@ const Login = () => {
 
                     <button
                         type="submit"
-                        className="w-full p-3 bg-blue-500 text-white font-semibold rounded-lg hover:bg-blue-700 transition duration-200"
+                        className="w-full p-3 bg-blue-500 font-mono text-white text-lg font-semibold rounded-lg hover:bg-blue-700 transition duration-200"
                     >Login</button>
                 </form>
 
-                <p className="pt-2 text-center text-gray-400">Don't have an account? <Link to='/signup' className='text-white hover:text-green-600'>Sign up</Link> </p>
+                <p className="pt-2 text-center text-gray-400">Don't have an account? <Link to='/signup' className='text-white font-semibold hover:text-green-600'>Sign up</Link> </p>
             </div>
         </div>
     );

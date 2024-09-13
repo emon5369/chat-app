@@ -5,8 +5,8 @@ function App() {
   return (
     <div className='h-screen flex flex-col gap-1'>
       <header className='flex-shrink-0'>
-        <h1 className='text-3xl font-mono flex justify-center items-center text-blue-600 py-1 border-b border-blue-600'>
-          <span><MessageCircle size={30} color='blue' /></span> U-Chat
+        <h1 className='text-3xl font-semibold font-serif flex justify-center items-center text-blue-600 py-1 border-b border-blue-600'>
+          <span><MessageCircle size={30} color='blue' /></span> UsChat
         </h1>
       </header>
 
@@ -15,7 +15,7 @@ function App() {
       </main>
       
       <footer className='flex-shrink-0 text-center text-gray-500 pb-2'>
-        © 2024 U-Chat. Created by Emon. All Rights Reserved.
+        © 2024 UsChat. Created by Emon. All Rights Reserved.
       </footer>
     </div>
   )
