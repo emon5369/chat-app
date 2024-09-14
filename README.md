@@ -43,7 +43,7 @@ A real-time chat application built using **React**, **Appwrite**, and **Tailwind
    - `body` (string)
 4. From the `messages` collection, go to the "settings" > "Permissions" > " + Add Role" and select "Any". Give this user type "Create", "Read", "Update" and "Delete" permissions.
 
-### Step 5: Install the Appwrite SDK
+### Step 4: Install the Appwrite SDK
 
 ```bash
 npm install appwrite
@@ -64,7 +64,6 @@ Follow these steps to get the project up and running on your local machine.
 
    ```bash
    npm install
-   npm install appwrite
    ```
 
 3. **Set up environment variables:**
