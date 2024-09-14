@@ -41,7 +41,7 @@ A real-time chat application built using **React**, **Appwrite**, and **Tailwind
    - `user_id` (string)
    - `username` (string)
    - `body` (string)
-4. Ensure to give the appropriate read and write permissions in the settings for authenticated users.
+4. From the `messages` collection, go to the "settings" > "Permissions" > " + Add Role" and select "Any". Give this user type "Create", "Read", "Update" and "Delete" permissions.
 
 ## Installation
 
