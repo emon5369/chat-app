@@ -72,10 +72,10 @@ Follow these steps to get the project up and running on your local machine.
    - Add the following environment variables:
 
      ```bash
-     REACT_APP_APPWRITE_ENDPOINT=<Your Appwrite endpoint>
-     REACT_APP_APPWRITE_PROJECT_ID=<Your Appwrite project ID>
-     REACT_APP_APPWRITE_DATABASE_ID=<Your Appwrite database ID>
-     REACT_APP_APPWRITE_COLLECTION_ID=<Your Appwrite collection ID>
+     VITE_APPWRITE_URL= <Your Appwrite endpoint>
+     VITE_APPWRITE_PROJECT_ID= <Your Appwrite project ID>
+     VITE_APPWRITE_DATABASE_ID= <Your Appwrite database ID>
+     VITE_APPWRITE_COLLECTION_ID= <Your Appwrite collection ID>
      ```
 
    Replace the placeholder values with your actual Appwrite project details.
