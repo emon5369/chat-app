@@ -5,7 +5,7 @@ A real-time chat application built using **React**, **Appwrite**, and **Tailwind
 ## Features
 
 - **Real-time Messaging:** Messages are updated instantly for all users.
-- **Authentication:** User authentication is handled via Appwrite.
+- **Authentication:** User authentication is handled by Appwrite.
 - **Message Creation and Deletion:** Users can send messages and delete their own messages.
 - **Responsive Design:** Works well on both desktop and mobile devices.
 
@@ -25,7 +25,7 @@ A real-time chat application built using **React**, **Appwrite**, and **Tailwind
 
 ### Step 1: Create a New Project
 
-1. Log in to your Appwrite console.
+1. Log in with your Appwrite account.
 2. Create a new project and note down the **Project ID**.
 
 ### Step 2: Setup Authentication
