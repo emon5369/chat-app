@@ -8,6 +8,7 @@
   background-color: #0e1624;
   color: white;
   box-sizing: border-box;
+  font-family: "Playwrite DE Grund", cursive;
 }
 
 .no-scrollbar::-webkit-scrollbar {
