@@ -93,7 +93,7 @@ Check out the live demo of UBlog: [Click here](http://uschatapp.netlify.app/)
 
 **Demo Credentials:**
 
-- **Email**: emon@gmail.com
+- **Email**: test@test.com
 - **Password**: 12345678
 
 ## Contribution
