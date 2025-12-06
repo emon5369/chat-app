@@ -14,8 +14,8 @@ function App() {
         <Outlet />
       </main>
       
-      <footer className='flex-shrink-0 text-center text-gray-500 pb-2'>
-        © 2024 UsChat. Created by Emon. All Rights Reserved.
+      <footer className='flex-shrink-0 text-center text-gray-500 pb-2 text-sm'>
+        © 2026 UsChat. Created by Emon. All Rights Reserved.
       </footer>
     </div>
   )
